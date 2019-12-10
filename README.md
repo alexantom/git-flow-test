@@ -16,7 +16,7 @@ git config --remove-section "gitflow.branch"
 ### Git Flow
 
 - `git flow init`
-- `git flow release start 1.0.2`
-- `git push --set-upstream origin release/1.0.2`
-- `git flow release finish '1.0.2'`
+- `git flow release start 1.0.2` - `Creates 1.0.2`
+- `git flow release finish '1.0.2'` - `Deletes 1.0.2 and switch to master`
 - `git push --tags`
+- `git push` - `Push change to master`
